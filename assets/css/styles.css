@@ -1,0 +1,89 @@
+/* general page layout for resources pages (header, body, footer) */
+.resources-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 70px 20px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(228, 240, 245);
+  margin-top: auto;
+}
+
+/* nav-bar styles for header navigation */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: rgb(228, 240, 245);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures navbar stays above other elements */
+}
+
+header, .nav-bar {
+  margin: 0;
+  padding: 20px;
+}
+
+/* table element styles for resource pages */
+.resource-content {
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
