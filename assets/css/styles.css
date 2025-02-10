@@ -104,6 +104,44 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* FIND AID AND GIVE AID BUTTON STYLE*/
+.btn-container {
+  display: flex;
+  gap: 100px;
+}
+
+.btn-container a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:100%;
+}
+
+#findaid-btn, #giveaid-btn {
+  background-color: rgb(228, 240, 245);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3 ease; /*smooths hover effect*/
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+}
+
+
+
+#findaid-btn:hover, #giveaid-btn:hover {
+  background-color: #4caf50;
+  box-shadow: 4px 6px 8px rgba(17, 131, 89, 0.3);
+}
+
+/*BUTTON END */
+
 header,
 .nav-bar {
   margin: 0;
