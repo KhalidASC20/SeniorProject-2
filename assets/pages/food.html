@@ -9,27 +9,26 @@
 
 <div class="resources-page">
   <body>
-    <div class="nav-bar-container">
-      <div class="find-or-give-aid">
-        <a href="../../landing-page.html" style="margin-right: auto;" class="logo">
-          <img src="../../images/sos_logo.png" alt="website logo"/>
-        </a>
-        <a href="../../assets/pages/needAid.html"style="text-decoration: underline;">FIND AID</a>
-        <a href="../../assets/pages/giveAid.html"style="margin-right: 45%;">GIVE AID</a>
-      </div>
-      
-      <div class="nav-bar">
-        <a href="../../assets/pages/food.html">Food</a>
-        <a href="../../assets/pages/housing.html">Housing</a>
-        <a href="../../assets/pages/supplies.html">Supplies</a>
-        <a href="../../assets/pages/wellness.html">Wellness</a>
-      </div>
-    </div>
+    <header> 
+      <nav class="navbar">
+        <div class="find-or-give-aid">
+          <a href="needAid.html">FIND AID</a>
+          <a href="giveAid.html">GIVE AID</a>
+        </div>
+        <div class="nav-bar">
+          <a href="../../landing-page.html">Home</a>
+          <a href="../../assets/pages/food.html">Food</a>
+          <a href="../../assets/pages/housing.html">Housing</a>
+          <a href="../../assets/pages/supplies.html">Supplies</a>
+          <a href="../../assets/pages/wellness.html">Wellness</a>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <div class="resource-content">
+        <h2>Free Food Assistance</h2>
         <table>
-          <caption>Free Food Assistance</caption>
           <thead>
             <tr>
               <th>Resource</th>
@@ -38,20 +37,32 @@
               <th>Website</th>
             </tr>
           </thead>
-          <tbody id = "food-resources">
+          <tbody id="food-resources">
+          </tbody>
+        </table>
 
+        <h2>Food Banks for Fire Victims</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Resource</th>
+              <th>Location</th>
+              <th>Phone Number</th>
+              <th>Website</th>
+            </tr>
+          </thead>
+          <tbody id="food-banks">
           </tbody>
         </table>
       </div>
     </main>
 
     <footer>
-      <a href="https://forms.gle/n3g2Z339MKtvXF6EA">Send us feedback on our site.</a>
       <p>&copy; 2025 LA Fire Resources. All rights reserved.</p>
     </footer>
 
-    <script src = "../js/foodResources.js"></script>
+    <script src="../../assets/js/foodResources.js"></script>
   </body>
 </div>
-  <script src="../js/category-name.js"></script>
+<script src="js/category-name.js"></script>
 </html>
