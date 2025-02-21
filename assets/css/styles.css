@@ -1,12 +1,15 @@
 .nav-bar-container {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
 }
 
 /* general page layout for resources pages (header, body, footer) */
 .resources-page {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 /* strangely the flex grow to keep the footer at the bottom works with empty main tags but not filled ones*/
@@ -164,6 +167,7 @@ footer {
 }
 
 table {
+  table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
@@ -186,6 +190,7 @@ th,
 td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
+  word-wrap: break-word;
 }
 
 td:last-of-type {
