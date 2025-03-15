@@ -1,0 +1,46 @@
+
+Evaluation and Feedback
+CMSI 4072 project ~ Spring 2025
+Evaluation for homework02
+===============================
+
+5-1 component-based vs service-oriented             5 of  5 points
+5-2 most appropriate architecture for tictactoe     5 of  5 points
+5-4 internet chess appropriate architecture         5 of  5 points
+5-6 database for ClassyDraw                         5 of  5 points
+5-8 state machine diagram for floats                7 of 10 points
+6-1 compare/contrast ClassyDraw subclasses         10 of 10 points
+6-2 inheritance diagram from 6-1                    9 of 10 points
+
+
+Total possible score: 50 points
+
+EVALUATION
+============================================================================
+Your score: 46 out of 50 = 92.0% which is an A-minus
+
+Comments:
+---------
+
+problem 5-1, very complete analysis!  Nice work.
+
+problem 5-2, since this is a very trivial application on a phone, monolithic
+   architecture is actually preferable.  You make a good case for component-
+   based, though...
+
+problem 5-6, good thought on this one, too.  Because ClassyDraw is pretty
+   basic, you can probably get away with just saving the files and using the
+   file system utilities for the rest.
+
+problem 5-8, the focus here was to make an actual diagram, not just say what
+   should be ON the diagram.
+
+problem 6-2, you have a new 'Properties' class which is a subclass of every
+   other class.  This is actually a bit nonsensical.  What you should have
+   is the 'Drawable' class at the top like you do, then have two subclasses
+   from that, 'LineDrawable' and 'Text'.  Then from 'LineDrawable' you need
+   two subclasses, 'Line' and 'Fillable', with the second one of those being
+   the superclass for the three shape classes.
+
+Excellent work ~ keep it up!
+
