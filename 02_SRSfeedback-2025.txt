@@ -1,0 +1,80 @@
+
+New Individual Project
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification &
+   Initial Development Schedule
+CMSI 4072 Spring 2025
+=======================================
+
+COMPONENT BREAKDOWN:
+   Not required for this semester's exercise
+
+FUNCTIONAL REQUIREMENTS:
+   You did a great job of following the detailed outline of the industry doc
+   but what this deliverable should be is mostly about the functional and
+   performance requirements of your project.  For that, you need the specific
+   language of the requirements document.  If you're using waterfall, it'll
+   be "shall" statements, and if you're using Agile it'll look like the
+   "As a ____ I want ____ so that ____" form.  what you have in your document
+   says what your software DOES, not WHAT IT IS, which is the purpose of the
+   requirements.
+
+   For example, your first functional requirement:
+
+      Display categorized resources (Housing, Food, Wellness, Supplies)
+
+   should be worded and numbered, like so:
+
+      3.2.1  The Display System shall display resource categories.
+             Resource categories will include but are not limited to:
+                Housing
+                Food
+                Wellness
+                Supplies
+
+   The way you have worded this is fine for a proposal or general description
+   but as a requirements document there is not enough specificity to be able
+   to test/prove that the requirement is met.
+
+PERFORMANCE REQUIREMENTS:
+   These are good, even though there isn't a specific section for them.  You
+   have split them across multiple other sections in the document, which is
+   fine.
+
+ENVIRONMENT REQUIREMENTS:
+   Same here, they're in a couple of other sections.  Fine.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown                 2/2
+   Functional Requirements             3/5
+   Performance Requirements            2/2
+   Environment Requirements            1/1
+                                     =====
+   Subtotal                           8/10
+   ------------------------------------------------------
+   Total Percentage:   8/10 = 80% which is a B on this deliverable
+
+You DO have a good start on this, just need to re-work those functional
+requirements into something that is testable and that shows what each piece
+is responsible for in the overall application.
+
+Doing fine, Khalid, keep up the good work!
+
+----------------------------------------------------------------------------
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+----------------------------------------------------------------------------
+
+Documentation Feedback ~ Deliverable #5
+Software Requirements Specification Complete
+============================================
+
+OVERALL ASSESSMENT:
+           Category                                Points
+   Comments from first submission incorporated       8/8
+   Spelling and Grammar in document acceptable       2/2
+                                                   =====
+   Subtotal                                        10/10
+   ------------------------------------------------------
+   Total Percentage:   10/10 = 100% which is an A-plus
