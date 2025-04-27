@@ -6,16 +6,17 @@ CMSI 4072 Spring 2025
 ==========================================
 
 DETAILED CSC AND CSU DESCRIPTIONS:
-   Not done.
+   Nice work here, you've captured exactly the right level of detail.
 
 DETAILED CLASS DESCRIPTIONS:
-   Not done.
+   Good work here as well.
 
 DETAILED INTERFACE DESCRIPTIONS:
-   Not done.
+   ....and here.
 
 DETAILED DATA STRUCTURE DESCRIPTIONS:
-   Not done.
+   Partial credit here, since you've done a good job on the previous three
+   sections and the reader can get the general idea from them.
 
 DETAILED DESIGN DIAGRAMS:
    Not done.
@@ -26,16 +27,25 @@ DATABASE DESIGN AND DESCRIPTION:
 ----------------------------------------------
 OVERALL ASSESSMENT:
    Category                          Points
-   CSC/CSU Descriptions:                0 of  2
-   Class Descriptions:                  0 of  3
-   Interface Descriptions:              0 of  3
-   Data structure Descriptions:         0 of  1
+   CSC/CSU Descriptions:                2 of  2
+   Class Descriptions:                  3 of  3
+   Interface Descriptions:              3 of  3
+   Data structure Descriptions:         1 of  1
    Design diagrams:                     0 of  4
    Database design/descriptions:        0 of  2
                                      ===========
-   Subtotal                             0 of 15
+   Subtotal                             9 of 15
    ------------------------------------------------------
-   Total Percentage:  0/15 = 0% which is an F on this deliverable.
+   Total Percentage:  9/15 = 60% which is a D on this deliverable.
 
-I can't evaluate what isn't there...
+The only reason for the low earned value is that there were two sections you
+didn't address.  More diagrams is always a good idea, for two reasons:
+   1) it helps the person reading about the system to better understand
+   2) it helps YOU as you are designing the system to think about the way it
+      will work and what the parts are, as well as how they will interact to
+      make the application work the way it should
+
+Try not to assume that what you have in your head is actually what you will
+be implementing!  That's the mistake I made in my industry jobs quite a few
+times...
 

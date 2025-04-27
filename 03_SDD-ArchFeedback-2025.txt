@@ -7,29 +7,35 @@ CMSI 4072 Spring 2025
 
 SDD: ARCHITECTURAL DESIGN SECTION:
    Major software components section
-      Document not submitted.
+      Section not done.
 
    Major software interactions section
-      Document not submitted.
+      OK, I see where this is.  It is pretty minimal, though.  You list six
+      different parts in the introduction section, but only three of them
+      are listed as interacting with each other.  Does this mean that the
+      other three are 'standalone' parts?
 
    Architectural design diagrams section
-      Document not submitted.
+      This is a good diagram for showing the system flow and some of the
+      operations and interfaces.  It could use some explanatory text so the
+      reader knows what they are looking at and can better understand how it
+      shows the system.  This one diagram is helpful, but don't be afraid of
+      doing more diagrams ~ a picture is worth a thousand words, right? :D
 
 OVERALL ASSESSMENT:
    Category                           Points
    --------------------------------   -------
    ARCHITECTURAL DESIGN SECTION:
    Major software components            0 / 2
-   Major software interactions          0 / 2
-   Architectural design diagrams        0 / 6
+   Major software interactions          2 / 2
+   Architectural design diagrams        6 / 6
                                       =======
-   Subtotal                             0 /10
+   Subtotal                             8 /10
    ------------------------------------------------------
-   Total Percentage:  0/10 = 0% which is an F on this deliverable.
+   Total Percentage:  8/10 = 80% which is a B on this deliverable.
 
 ============================================================================
 COMMENTS:
 ---------
 
-I can't evaluate what isn't there...
-
+See comments above.
